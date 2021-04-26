@@ -1,0 +1,37 @@
+###
+POST http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "fullname": "Bagas iskandar",
+    "username": "bagas0",
+    "email": "bagas12@gmail.com",
+    "password": "bagaasjuu",
+    "telephone": "08997868547",
+    "address": "medan",
+    "batch": 8
+}
+
+###
+GET http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+###
+DELETE http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id_user": 1
+}
+
+###
+PATCH http://localhost:8000/api/user/edit/2
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "test@gmail.com"
+}
